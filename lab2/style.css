@@ -19,3 +19,45 @@
     background-color: #0A0ACB;
     color: white;
 }
+
+.pos-image{
+    margin-top: 10px;
+    height: 130px;
+    width: 130px;
+    position: relative;
+    }
+.pos-center-circle{
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    left: 20px;
+    border: 15px solid white;
+    z-index: 10;
+}
+.pos-outer-circle{
+    border-radius: 50%;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 15px;
+    left: 15px
+}
+.pos-vertical-line{
+    position: absolute;
+    border-left: 5px solid black;
+    height: 130px;
+    left: 63px;
+    z-index: 15;
+}
+.pos-horizontal-line{
+    position: absolute;
+    border-top: 5px solid black;
+    width: 130px;
+    top: 63px;
+    z-index: 15;
+}
+
