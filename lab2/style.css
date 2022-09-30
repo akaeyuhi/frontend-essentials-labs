@@ -7,10 +7,10 @@
     border-collapse: collapse;
 }
 .variant-table tr:first-child{
-    background-color: #348f8f;
+    background-color: #548f8f;
 }
 .variant-table tr:nth-child(2){
-    background-color: #f5f534;
+    background-color: #f5f554;
 }
 .variant-table tr:first-child:hover{
     background-color: #CB7070;
