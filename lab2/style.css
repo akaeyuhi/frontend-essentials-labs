@@ -1,0 +1,21 @@
+.variant-table{
+    width: 400px;
+    height: 100px;
+}
+.variant-table, .variant-table td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.variant-table tr:first-child{
+    background-color: #348f8f;
+}
+.variant-table tr:nth-child(2){
+    background-color: #f5f534;
+}
+.variant-table tr:first-child:hover{
+    background-color: #CB7070;
+}
+.variant-table tr:nth-child(2):hover{
+    background-color: #0A0ACB;
+    color: white;
+}
