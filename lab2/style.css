@@ -61,3 +61,38 @@
     z-index: 15;
 }
 
+.transform-image {
+    margin-top: 10px;
+    height: 130px;
+    width: 130px;
+}
+.tr-vertical-line{
+    position: fixed;
+    border-left: 5px solid black;
+    height: 130px;
+    transform: translateX(63px);
+    z-index: 15;
+}
+.tr-horizontal-line{
+    position: fixed;
+    border-top: 5px solid black;
+    width: 130px;
+    transform: translateY(63px);
+    z-index: 15;
+}
+.tr-outer-circle{
+    border-radius: 50%;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    transform: translate(15px, 15px);
+}
+.tr-center-circle{
+    border-radius: 50%;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border: 15px solid white;
+    transform: translate(20px, 20px);
+    z-index: 10;
+}
