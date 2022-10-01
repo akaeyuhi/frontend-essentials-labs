@@ -34,9 +34,9 @@ body {
 }
 .image {
     object-fit: cover;
+    display: block;
 }
 
 .text {
     background-color: rgb(108, 218, 24);
-    margin-top: -7px;
 }
