@@ -1,0 +1,9 @@
+.first-element__active {
+    background-color: #f1c40f;
+    color: #ffffff;
+}
+
+.second-element__active {
+    background-color: #14f51c;
+    color: #ffffff;
+}
