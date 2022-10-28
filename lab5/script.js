@@ -1,7 +1,7 @@
 "use strict";
-import Validator from "./src/validator";
-import Colors from "./src/colors";
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("Hello world");
+  const form = document.querySelector(".form");
+  const formOutput = document.querySelector(".form__result");
+  const validator = new Validator(form, formOutput);
 });
