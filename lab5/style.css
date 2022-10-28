@@ -32,7 +32,6 @@ html {
     justify-content: center;
     gap: 40px;
     padding: 10px;
-    margin-bottom: 10vh;
   }
   
   .form {
@@ -85,12 +84,12 @@ html {
   
   table {
     border-collapse: collapse;
-    background-color: #fff;
+    background: transparent;
   }
   
   td {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     vertical-align: middle;
     text-align: center;
     transition: background-color 0.2s ease;
