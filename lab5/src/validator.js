@@ -1,4 +1,4 @@
-/*export default*/ class Validator {
+class Validator {
   _form = null;
   _formOutput = null;
   _data = null;
