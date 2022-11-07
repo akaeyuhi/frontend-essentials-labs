@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    overflow-x: hidden;
   }
   
   *,
@@ -10,7 +11,6 @@ html {
   }
   
   body {
-    height: 100vh;
     width: 100vw;
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(57, 66, 68);
@@ -25,8 +25,8 @@ html {
     flex-direction: column;
     justify-content: space-around;
     align-items: center; 
-
-}
+    margin-top: 10px;
+}   
 
 .load__container {
     display: flex;
@@ -39,6 +39,7 @@ html {
 .load__button {
     height: 50px;
     width: 200px; 
+    margin-bottom: 10px;
     border: none;
     font-size: larger;
     background-color: rgb(14, 135, 16);
@@ -57,8 +58,8 @@ html {
 .result__container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    column-gap: 20px;
-    padding: 10px;
+    gap: 20px;
+    padding: 20px;
 }
 
 .result__item {
@@ -78,4 +79,8 @@ html {
     display: block;
     width: 100%; 
     margin-bottom: 10px;
+}
+
+.display {
+    display: none;
 }
