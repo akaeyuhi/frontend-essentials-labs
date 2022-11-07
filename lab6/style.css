@@ -1,6 +1,25 @@
 html {
     box-sizing: border-box;
     overflow-x: hidden;
+    
+  }
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #b5b5b5 #394244;
+  }
+
+  *::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #394244;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #b5b5b5;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
   }
   
   *,
