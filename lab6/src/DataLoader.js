@@ -1,10 +1,12 @@
 class DataLoader {
   _rootElement = null;
   _items = [];
+  _loaderElement = null;
 
-  constructor(rootElement) {
+  constructor(rootElement, loaderElement) {
     this._rootElement = rootElement;
-    document
+    this._loaderElement = loaderElement;
+    this._loaderElement
       .querySelector(".load__button")
       .addEventListener("click", async () => await this._onClickHandler());
   }
@@ -48,13 +50,19 @@ class DataLoader {
   }
 
   async _onClickHandler() {
-    if (!document.querySelector(".load__success").classList.contains("display"))
+    if (
+      !this._loaderElement
+        .querySelector(".load__success")
+        .classList.contains("display")
+    )
       this._setSuccess();
     await this.renderResult(5);
   }
 
   _setSuccess() {
-    document.querySelector(".load__success").classList.toggle("display");
+    this._loaderElement
+      .querySelector(".load__success")
+      .classList.toggle("display");
   }
 
   _getMarkup(data) {
