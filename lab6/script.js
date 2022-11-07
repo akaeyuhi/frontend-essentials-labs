@@ -2,5 +2,6 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
   const rootElement = document.querySelector(".result__container");
-  const dataLoader = new DataLoader(rootElement);
+  const loaderElement = document.querySelector(".loader__container");
+  new DataLoader(rootElement, loaderElement);
 });
