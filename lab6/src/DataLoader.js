@@ -6,7 +6,23 @@ class DataLoader {
     this._rootElement = rootElement;
   }
 
-  async loadData() {}
+  async loadData() {
+    try {
+      const result = await (await fetch("https://randomuser.me/api")).json();
+      const { picture, gender, name, city, postcode, coordinates } = result;
+      const dto = new UserDto({
+        picture,
+        gender,
+        name,
+        city,
+        postcode,
+        coordinates,
+      });
+      return dto;
+    } catch (error) {
+      alert(`Error: ${error.message}`);
+    }
+  }
 
   getMarkup(data) {
     return `
