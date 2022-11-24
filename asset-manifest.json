@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontend-essentials-labs/lab7/static/css/main.8387b628.css",
+    "main.js": "/frontend-essentials-labs/lab7/static/js/main.de0d6259.js",
+    "static/js/787.1ccb730a.chunk.js": "/frontend-essentials-labs/lab7/static/js/787.1ccb730a.chunk.js",
+    "index.html": "/frontend-essentials-labs/lab7/index.html",
+    "main.8387b628.css.map": "/frontend-essentials-labs/lab7/static/css/main.8387b628.css.map",
+    "main.de0d6259.js.map": "/frontend-essentials-labs/lab7/static/js/main.de0d6259.js.map",
+    "787.1ccb730a.chunk.js.map": "/frontend-essentials-labs/lab7/static/js/787.1ccb730a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8387b628.css",
+    "static/js/main.de0d6259.js"
+  ]
+}
