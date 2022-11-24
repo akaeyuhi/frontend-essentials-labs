@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Routes, Route, useNavigate } from 'react-router';
-import './App.css';
+import { Navbar } from './components/Navbar';
 
 function App() {
   const navigate = useNavigate();
@@ -8,6 +8,7 @@ function App() {
   useEffect(() => navigate('/about'), []);
   return (
     <div className="container">
+      <Navbar />
       <Routes>
         <Route path='/about' />
         <Route path='/goods' />
