@@ -1,3 +1,9 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 .first-element__active {
   background-color: #f1c40f;
   color: #ffffff;
@@ -6,4 +12,29 @@
 .second-element__active {
   background-color: #14f51c;
   color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: #b02c47;
+}
+
+.navbar a:hover {
+  transform: translateY(-10px);
+  color: aqua;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.active {
+  color: #fdec6e !important;
+  text-shadow:0 0 30px #fdec6e !important;
 }
