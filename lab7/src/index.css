@@ -38,3 +38,7 @@
   color: #fdec6e !important;
   text-shadow:0 0 30px #fdec6e !important;
 }
+
+.container {
+  padding: 10px;
+}
